@@ -1,1 +1,63 @@
-/* You can add global styles to this file, and also import other style files */
+/* Estilos para o corpo da página */
+body {
+    background-color: #ccc; /* Fundo cinza claro para preencher toda a página */
+    margin: 0; /* Remover margens padrão do corpo */
+    padding: 0; /* Remover preenchimento padrão do corpo */
+  }
+  
+  /* Estilos para as seções */
+  section {
+    background-color: #959090; /* Fundo branco para as seções */
+    border: 1px solid #ccc; /* Borda cinza clara */
+    border-radius: 10px; /* Borda arredondada */
+    margin: 20px 0; /* Espaçamento superior e inferior entre as seções */
+    padding: 20px; /* Espaçamento interno */
+  }
+  
+  /* Estilos para títulos */
+  h1, h2 {
+    color: #00ccff; /* Cor do título em azul claro */
+    margin-bottom: 10px; /* Espaçamento inferior para o título */
+  }
+  
+  /* Estilos para texto */
+  p {
+    color: #000; /* Cor do texto preta */
+  }
+  
+  /* Estilos para a classe .text-primary */
+  .text-primary {
+    color: #00ccff; /* Cor do texto em azul claro */
+  }
+  /* Estilos para o corpo da página */
+body {
+    background-color: #1f1f1f; /* Fundo preto escuro */
+    margin: 0; /* Remover margens padrão do corpo */
+    padding: 0; /* Remover preenchimento padrão do corpo */
+  }
+  
+  /* Estilos para as seções */
+  section {
+    background-color: #2b2b2b; /* Fundo cinza escuro */
+    border: 1px solid #1f1f1f; /* Borda preta escura */
+    border-radius: 10px; /* Borda arredondada */
+    margin: 20px 0; /* Espaçamento superior e inferior entre as seções */
+    padding: 20px; /* Espaçamento interno */
+  }
+  
+  /* Estilos para títulos */
+  h1, h2 {
+    color: #00ccff; /* Cor do título em azul claro */
+    margin-bottom: 10px; /* Espaçamento inferior para o título */
+  }
+  
+  /* Estilos para texto */
+  p {
+    color: #fff; /* Cor do texto branca */
+  }
+  
+  /* Estilos para a classe .text-primary */
+  .text-primary {
+    color: #00ccff; /* Cor do texto em azul claro */
+  }
+  

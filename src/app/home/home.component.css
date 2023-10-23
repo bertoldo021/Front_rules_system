@@ -1,0 +1,28 @@
+/* Estilos para elementos com fundo escuro */
+.container, .card {
+    background-color: #333; /* Fundo escuro */
+    color: #fff; /* Cor do texto branca */
+    border-radius: 10px; /* Borda arredondada */
+    padding: 20px;
+  }
+  
+  /* Estilos para títulos em azul claro */
+  h1, h2 {
+    color: #0066ff; /* Cor do título em azul claro */
+  }
+  
+  /* Estilos para texto */
+  p, .text-primary {
+    color: #fff; /* Cor do texto branca */
+  }
+  
+  /* Espaçamento superior */
+  .mt-4 {
+    margin-top: 1rem;
+  }
+  
+  /* Espaçamento entre seções */
+  section {
+    margin-top: 1rem;
+  }
+  

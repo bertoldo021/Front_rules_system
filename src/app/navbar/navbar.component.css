@@ -1,0 +1,36 @@
+/* Estilos para a barra de navegação */
+nav {
+    background-color: #1f1f1f; /* Fundo escuro */
+    padding: 10px; /* Espaçamento interno */
+  }
+  
+  /* Estilos para a lista não ordenada (ul) */
+  nav ul {
+    list-style: none; /* Remover marcadores de lista */
+    padding: 0;
+    margin: 0;
+    display: flex; /* Exibir os itens da lista horizontalmente */
+    justify-content: space-around; /* Espaçamento igual entre os itens */
+  }
+  
+  /* Estilos para os itens da lista (li) */
+  nav li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos para os links (âncoras) */
+  nav a {
+    text-decoration: none; /* Remover sublinhado padrão */
+    color: #fff; /* Cor do texto branca */
+    padding: 10px 15px; /* Espaçamento interno nos botões */
+    border-radius: 5px; /* Borda arredondada nos botões */
+    background-color: #0077b6; /* Cor de fundo dos botões (tom mais escuro) */
+    transition: background-color 0.3s; /* Transição suave da cor de fundo ao passar o mouse */
+  
+    /* Estilos ao passar o mouse sobre os botões */
+    &:hover {
+      background-color: #005a8d; /* Cor de fundo mais escura ao passar o mouse */
+    }
+  }
+  

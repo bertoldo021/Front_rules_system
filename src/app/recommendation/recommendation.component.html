@@ -1,0 +1,111 @@
+<section class="mt-5">
+    <div class="container">
+        <div class="row align-items-center gy-3 p-5">
+            <div class="col-12 col-md-7">
+                <div class="card">
+                    <h1 class="card-title fw-semibold text-primary"></h1>
+
+                    <h2 class="fw-semibold fs-4">Comece Agora</h2>
+                    <section id="info" class="fs-5">
+                        <div class="d-inline-block">
+                            <p class="mt-4">
+                                <span class="text-primary fw-semibold"></span> Para obter recomendações precisas de adubação para as suas forrageiras, basta fornecer informações sobre o solo e o tipo de forrageira que você pretende cultivar. Nossa ferramenta fornecerá orientações personalizadas para otimizar sua produção.
+                            </p>
+                        </div>
+                    </section>
+
+                    <form (submit)="submitForm($event)">
+                        <div class="form-group mb-3">
+                            <label for="tipoSolo">Tipo de Solo:</label>
+                            <select class="form-control" id="tipoSolo">
+                              <option value="argiloso">Argiloso</option>
+                              <option value="arenoso">Arenoso</option>
+                              <option value="misto">Misto</option>
+                            </select>
+                          </div>
+                          <div class="form-group mb-3">
+                            <label for="calcio">pH do solo:</label>
+                            <input type="text" class="form-control" id="calcio">
+                          </div>
+                          <div class="form-group mb-3">
+                            <label for="materiaOrganica">Teor de Matéria Orgânica (%):</label>
+                            <select class="form-control" id="materiaOrganica">
+                              <option value="1">1,6</option>
+                              <option value="2.6">1,7 - 2,5</option>
+                              <option value="3.6">2,6 - 3,5</option>
+                              <option value="4.6">4.5</option>
+                            </select>
+                          </div>
+                          <div class="form-group mb-3">
+                            <label for="fosforo">Fósforo (P):</label>
+                            <select class="form-control" id="fosforo">
+                              <option value="muito_baixo">Muito Baixo</option>
+                              <option value="baixo">Baixo</option>
+                              <option value="medio">Médio</option>
+                              <option value="alto">Alto</option>
+                              <option value="muito_alto">Muito Alto</option>
+                            </select>
+                          </div>
+                          <div class="form-group mb-3">
+                            <label for="potassio">Potássio (K):</label>
+                            <select class="form-control" id="potassio">
+                              <option value="muito_baixo">Muito Baixo</option>
+                              <option value="baixo">Baixo</option>
+                              <option value="medio">Médio</option>
+                              <option value="alto">Alto</option>
+                              <option value="muito_alto">Muito Alto</option>
+                            </select>
+                          </div>
+                          <div class="form-group mb-3">
+                            <label for="calcio">Cálcio (Ca cmolc/dm³):</label>
+                            <input type="text" class="form-control" id="calcio">
+                          </div>
+                          <div class="form-group mb-3">
+                            <label for="magnesio">Magnésio (Mg cmolc/dm³):</label>
+                            <input type="text" class="form-control" id="magnesio">
+                          </div>
+                          <div class="form-group mb-3">
+                            <label for="tipoForrageira">Tipo de Forrageira:</label>
+                            <select class="form-control" id="tipoForrageira">
+                              <option value="alfafa">Alfafa</option>
+                              <option value="gramineas_estacao_fria">Gramíneas de Estação Fria</option>
+                            </select>
+                          </div>
+                          <div class="form-group mb-3">
+                            <label for="cultura">Cultura Anual ou Perene:</label>
+                            <select class="form-control" id="cultura">
+                              <option value="anual">Anual</option>
+                              <option value="perene">Perene</option>
+                            </select>
+                          </div>
+                          <div class="form-group mb-3">
+                            <label for="primeiroPlantio">Primeiro Plantio da Cultura:</label>
+                            <select class="form-control" id="primeiroPlantio">
+                              <option value="sim">Sim</option>
+                              <option value="nao">Não</option>
+                            </select>
+                          </div>
+                          <div class="form-group mb-3">
+                            <label for="objetivo">Objetivo:</label>
+                            <select class="form-control" id="objetivo">
+                              <option value="corte">Corte</option>
+                              <option value="feno">Feno</option>
+                              <option value="silagem">Silagem</option>
+                            </select>
+                          </div>
+                          <button type="submit" class="btn btn-primary">Enviar</button>
+                        </form>
+                </div>
+            </div>
+
+            <!-- Novo campo de texto "Teste" à direita do formulário -->
+            <div class="col-12 col-md-5">
+                <div class="card">
+                    <h2 class="fw-semibold fs-4">Teste</h2>
+                    <div #testeDiv>{{ mensagemDeSucesso }}</div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</section>

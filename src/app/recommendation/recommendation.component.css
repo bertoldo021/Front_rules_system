@@ -1,0 +1,29 @@
+/* Adicione estilos específicos para o componente de recomendação */
+.card {
+    background-color: #333; /* Fundo escuro para a seção do formulário */
+    border: 1px solid #666; /* Borda cinza */
+    border-radius: 10px; /* Borda arredondada */
+    padding: 20px; /* Espaçamento interno */
+    color: #fff; /* Texto branco */
+  }
+  
+  .card-title {
+    color: #00ccff; /* Cor do título em azul claro */
+  }
+  
+  .form-control {
+    background-color: #444; /* Fundo escuro para campos de entrada */
+    border: 1px solid #666; /* Borda cinza para campos de entrada */
+    color: #fff; /* Texto branco para campos de entrada */
+  }
+  
+  .btn-primary {
+    background-color: #00ccff; /* Cor de fundo azul claro para botão */
+    border: none; /* Sem borda */
+    color: #fff; /* Texto branco para botão */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0099cc; /* Cor de fundo azul escuro no hover do botão */
+  }
+  
