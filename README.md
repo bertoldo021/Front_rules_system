@@ -5,8 +5,9 @@
 - Antes de começar, certifique-se de ter o Node.js e o Angular CLI instalados em seu sistema. Se você ainda não tem essas ferramentas instaladas, siga os passos abaixo:
 
 - Node.js: Caso não tenha o Node.js instalado, faça o download da versão mais recente em nodejs.org e siga o instalador para o seu sistema operacional.
+  
 - https://nodejs.org/en/download/current
-- 
+  
 - Angular CLI: Após a instalação do Node.js, abra o terminal ou prompt de comando e execute o seguinte comando para instalar o Angular CLI globalmente:
 
 - npm install -g @angular/cli
