@@ -32,6 +32,7 @@ git clone https://github.com/bertoldo021/Front_rules_system
 
 5 - Isso iniciará o servidor de desenvolvimento e você poderá acessar o aplicativo no navegador em http://localhost:4200/.
 
-Contribuições
-Fique à vontade para contribuir com melhorias ou correções neste projeto. Basta criar um fork do repositório, fazer suas modificações e enviar um pull request.
+##Contribuições
+
+- Fique à vontade para contribuir com melhorias ou correções neste projeto. Basta criar um fork do repositório, fazer suas modificações e enviar um pull request.
 
