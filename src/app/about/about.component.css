@@ -1,0 +1,35 @@
+.container, .card {
+    background-color: #333; /* Fundo escuro */
+    color: #fff; /* Cor do texto branca */
+    border-radius: 10px; /* Borda arredondada */
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    color: #0066ff; 
+  }
+  
+  p, .text-primary {
+    color: #fff; 
+  }
+  
+  .mt-4 {
+    margin-top: 1rem;
+  }
+  
+  section {
+    margin-top: 1rem;
+  }
+  
+  .about-container, .about-card {
+    background-color: #333; /* Fundo escuro */
+    color: #fff; /* Cor do texto branca */
+    border-radius: 10px; /* Borda arredondada */
+    padding: 20px;
+    margin-top: 2rem; /* Espaçamento superior adicional */
+  }
+  
+  .about-title {
+    color: #0066ff; /* Cor do título em azul claro */
+  }
+  
